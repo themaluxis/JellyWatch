@@ -23,4 +23,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/${{ github.event.repository.name }}:latest, ${{ secrets.DOCKERHUB_USERNAME }}/${{ github.event.repository.name }}:${{ github.sha }}
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/jellywatch:latest, ${{ secrets.DOCKERHUB_USERNAME }}/jellywatch:${{ github.sha }}
